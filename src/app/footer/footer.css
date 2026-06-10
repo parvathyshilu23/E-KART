@@ -1,0 +1,40 @@
+.footer {
+    background: linear-gradient(90deg, #0f172a, #1e3a8a);
+    color: #ffffff;
+    padding: 50px 20px;
+    margin-top: 50px;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.2);
+}
+
+/* Brand Name */
+.footer h4 {
+    color: #60a5fa;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Links */
+.footer p {
+    color: #e5e7eb;
+    margin: 8px 0;
+    font-size: 0.95rem;
+}
+
+
+.footer p:hover {
+    color: #60a5fa;
+    cursor: pointer;
+}
+
+/* Optional divider style */
+.footer hr {
+    border-color: rgba(255,255,255,0.1);
+    margin: 20px 0;
+}
+
+/* Contact info highlight */
+.footer .contact {
+    color: #93c5fd;
+    font-weight: 500;
+}

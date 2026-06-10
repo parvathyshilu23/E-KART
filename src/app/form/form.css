@@ -1,0 +1,94 @@
+/* PAGE BACKGROUND FEEL */
+body {
+    background: #f4f7fb;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FORM WRAPPER */
+.form-wrapper {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 35px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+    max-width: 750px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.form-wrapper:hover {
+    box-shadow: 0 12px 30px rgba(37, 99, 235, 0.12);
+}
+
+/* HEADING */
+.form-wrapper h2 {
+    font-weight: 800;
+    color: #0f172a;
+}
+
+/* SUB TEXT */
+.sub-text {
+    color: #64748b;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+/* LABELS */
+.contact-form label {
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+}
+
+/* INPUT FIELDS */
+.contact-form .form-control {
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    padding: 10px 12px;
+    transition: 0.3s;
+    background: #f8fafc;
+}
+
+/* INPUT FOCUS EFFECT */
+.contact-form .form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    background: #ffffff;
+}
+
+/* TEXTAREA */
+textarea.form-control {
+    resize: none;
+}
+
+/* BUTTON */
+.submit-btn {
+    background: linear-gradient(90deg, #0f172a, #1e3a8a);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+}
+.submit-btn {
+    background: linear-gradient(90deg, #0f172a, #1e3a8a);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(37, 99, 235, 0.2);
+}

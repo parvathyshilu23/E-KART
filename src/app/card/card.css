@@ -1,0 +1,52 @@
+/* Title */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 40px;
+}
+
+/* Card style */
+.product-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Hover effect */
+.product-card:hover {
+    transform: translateY(-6px);
+    border-color: #2563eb;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.15);
+}
+
+/* Icons */
+.icon {
+    font-size: 2.8rem;
+    color: #2563eb;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.product-card:hover .icon {
+    transform: scale(1.1);
+    color: #1d4ed8;
+}
+
+/* Text */
+.product-card h5 {
+    font-weight: 600;
+    color: #111827;
+}
+
+.product-card p {
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
+/* Grid spacing */
+.row {
+    row-gap: 20px;
+}

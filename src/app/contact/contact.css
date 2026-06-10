@@ -1,0 +1,66 @@
+/* PAGE BACKGROUND */
+.contact-page {
+    background: #f4f7fb;
+}
+
+/* LEFT TEXT INFO */
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+/* FORM BOX */
+.form-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* SUPPORT SECTION */
+.support-section {
+    background: linear-gradient(90deg, #0f172a, #1e3a8a);
+    color: white;
+    padding: 50px 30px;
+    border-radius: 16px;
+}
+
+.support-section h2 {
+    font-weight: 800;
+}
+
+.support-section p {
+    opacity: 0.9;
+}
+
+.support-btn {
+    background: #facc15;
+    color: #0f172a;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+.support-btn:hover {
+    background: #eab308;
+}
+.support-section h2 {
+    color: #ffffff;
+}
+.contact-card h5 {
+    font-weight: 800;
+    color: #0f172a;
+}

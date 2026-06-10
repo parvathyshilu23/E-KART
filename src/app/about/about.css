@@ -1,0 +1,90 @@
+.about-hero {
+    background: linear-gradient(90deg, #0f172a, #1e3a8a);
+    color: white;
+    border-radius: 16px;
+    padding: 60px 30px;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+.col-lg-6 h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+.col-lg-6 p {
+    color: #475569;
+    line-height: 1.7;
+}
+
+/* LIST STYLE UPGRADE */
+.col-lg-6 ul li {
+    background: #f8fafc;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border-left: 4px solid #2563eb;
+    border-radius: 8px;
+    color: #1f2937;
+    transition: 0.3s;
+}
+
+.col-lg-6 ul li:hover {
+    background: #eff6ff;
+    transform: translateX(5px);
+}
+img {
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+.info-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 25px;
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563eb;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.15);
+}
+
+.info-card h3 {
+    color: #0f172a;
+    font-weight: 700;
+}
+
+.info-card p {
+    color: #475569;
+}
+.text-center .row div {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    font-weight: 500;
+    color: #1f2937;
+    transition: 0.3s;
+}
+
+.text-center .row div:hover {
+    background: #eff6ff;
+    border-color: #2563eb;
+    transform: translateY(-3px);
+}
