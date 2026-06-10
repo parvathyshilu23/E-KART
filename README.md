@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # EKart
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.13.
@@ -62,3 +63,7 @@ For more information on using the Angular CLI, including detailed command refere
 # ANGULAR1
 WEBSITE
 >>>>>>> fbb1a4bb9eeb9421cba581012c35419fb61ddedc
+=======
+# E-KART
+WEBSITE
+>>>>>>> c116c8c28007da2951c86017ed66ab6ac8d0c4c2
